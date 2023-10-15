@@ -6,8 +6,8 @@ def calculate_tax number(income, tax_rate):
     return tax
 
 try:
-    income = float(input("Enter your income: $"))
-    tax_rate = float(input("Enter the tax rate (as a decimal): "))
+    income = float(input("Please enter your income: $"))
+    tax_rate = float(input("Please enter the tax rate (as a decimal): "))
 
     tax_amount = calculate_tax number(income, tax_rate)
     print("Tax amount: $", tax_amount)
